@@ -1,0 +1,115 @@
+{"trace_id": "0882de80beca", "timestamp": "2026-06-24T15:10:25.586336", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "543c520a48de", "timestamp": "2026-06-24T15:11:22.489281", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "544162210184", "timestamp": "2026-06-24T15:11:22.777642", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "5549a31589c5", "timestamp": "2026-06-24T15:11:22.971247", "type": "tool_call", "name": "review_code", "duration_ms": 0.11, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "c916fb7650fa", "timestamp": "2026-06-24T15:11:23.149771", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "7282ab7e0f73", "timestamp": "2026-06-24T15:11:23.318124", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "afc4e8d1342c", "timestamp": "2026-06-24T15:11:23.480719", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "f657bd53f892", "timestamp": "2026-06-24T15:11:23.651943", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "76e5d9298872", "timestamp": "2026-06-24T15:11:23.836831", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "a357766c49c8", "timestamp": "2026-06-24T15:11:24.003177", "type": "tool_call", "name": "create_endpoint", "duration_ms": 0.08, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "0fac7b907c4a", "timestamp": "2026-06-24T15:11:24.166756", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "7be2dc8ef8a8", "timestamp": "2026-06-24T15:11:24.330430", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "dc47a370d53d", "timestamp": "2026-06-24T15:11:24.489070", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "c21b283f7934", "timestamp": "2026-06-24T15:11:24.662590", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "bdbc888b2ba3", "timestamp": "2026-06-24T15:11:24.867221", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "caef72987ddb", "timestamp": "2026-06-24T15:11:25.034328", "type": "tool_call", "name": "write_dockerfile", "duration_ms": 0.08, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "47443f71d21a", "timestamp": "2026-06-24T15:11:25.205378", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "7366de363443", "timestamp": "2026-06-24T15:11:25.379235", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "43f1c0a45743", "timestamp": "2026-06-24T15:11:25.542612", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "f89b704f3064", "timestamp": "2026-06-24T15:21:36.904254", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "b85c64f333b9", "timestamp": "2026-06-24T15:21:37.175533", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "73c5b26d29e7", "timestamp": "2026-06-24T15:21:37.355799", "type": "tool_call", "name": "read_file", "duration_ms": 0.04, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "fe51930e4c3f", "timestamp": "2026-06-24T15:21:37.532773", "type": "tool_call", "name": "read_file", "duration_ms": 177.03, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "781f93eb54d5", "timestamp": "2026-06-24T15:21:37.706186", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "a3796cddb058", "timestamp": "2026-06-24T15:21:37.878301", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "d5d0a02b2162", "timestamp": "2026-06-24T15:21:38.049961", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "003978a37604", "timestamp": "2026-06-24T15:21:38.228453", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "65552d8fae0c", "timestamp": "2026-06-24T15:21:38.428774", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "4a440ae1a2bc", "timestamp": "2026-06-24T15:21:38.599218", "type": "tool_call", "name": "write_file", "duration_ms": 0.05, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "34ac38683065", "timestamp": "2026-06-24T15:21:38.776576", "type": "tool_call", "name": "write_file", "duration_ms": 177.44, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "6987d44c3266", "timestamp": "2026-06-24T15:21:38.951489", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "bd60606c5abc", "timestamp": "2026-06-24T15:21:39.119480", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "7966329b1468", "timestamp": "2026-06-24T15:21:39.294949", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "cf51324fa9b2", "timestamp": "2026-06-24T15:21:39.476275", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "641e2103552b", "timestamp": "2026-06-24T15:21:39.665296", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "ff80d68f2ea1", "timestamp": "2026-06-24T15:21:39.836786", "type": "tool_call", "name": "write_file", "duration_ms": 0.04, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "6cfb55ae6879", "timestamp": "2026-06-24T15:21:40.007704", "type": "tool_call", "name": "write_file", "duration_ms": 170.99, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "53a2bc246188", "timestamp": "2026-06-24T15:21:40.179166", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "3b11c40c8269", "timestamp": "2026-06-24T15:21:40.345418", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "64d622af38ce", "timestamp": "2026-06-24T15:21:40.514172", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "1f69873e5284", "timestamp": "2026-06-24T15:22:04.136390", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "c9798ff4c482", "timestamp": "2026-06-24T15:22:04.428176", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "87340bea4b4d", "timestamp": "2026-06-24T15:22:04.603332", "type": "tool_call", "name": "read_file", "duration_ms": 0.06, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "4a6f5fee4243", "timestamp": "2026-06-24T15:22:04.780672", "type": "tool_call", "name": "read_file", "duration_ms": 177.44, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "90050551ad5f", "timestamp": "2026-06-24T15:22:04.960495", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "cbe2e0400738", "timestamp": "2026-06-24T15:22:05.132872", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "9a4e5b217354", "timestamp": "2026-06-24T15:22:05.300440", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "2075f88ff283", "timestamp": "2026-06-24T15:22:05.479796", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "2ff2ee10ee4e", "timestamp": "2026-06-24T15:22:05.680755", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "282ff6abc8c2", "timestamp": "2026-06-24T15:22:05.842687", "type": "tool_call", "name": "write_file", "duration_ms": 0.04, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "c5829be3f9d3", "timestamp": "2026-06-24T15:22:06.010093", "type": "tool_call", "name": "write_file", "duration_ms": 167.49, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "0bad49674099", "timestamp": "2026-06-24T15:22:06.177714", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "f11fe2f66a41", "timestamp": "2026-06-24T15:22:06.349008", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "29c6e08f32e9", "timestamp": "2026-06-24T15:22:06.510622", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "8a7a763a223c", "timestamp": "2026-06-24T15:22:06.680003", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "24e91d0bf63f", "timestamp": "2026-06-24T15:22:06.860976", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "781321ea0ce2", "timestamp": "2026-06-24T15:22:07.034775", "type": "tool_call", "name": "write_file", "duration_ms": 0.04, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "d44a0136d6f6", "timestamp": "2026-06-24T15:22:07.200258", "type": "tool_call", "name": "write_file", "duration_ms": 165.56, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "ee26dea4517a", "timestamp": "2026-06-24T15:22:07.364521", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "7911d9519f65", "timestamp": "2026-06-24T15:22:07.530019", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "c32589dacae7", "timestamp": "2026-06-24T15:22:07.696958", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "238b9849a019", "timestamp": "2026-06-24T15:27:08.198223", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "9011564b05a6", "timestamp": "2026-06-24T15:27:08.203226", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "8fe4bb05f22e", "timestamp": "2026-06-24T15:27:08.203226", "type": "tool_call", "name": "read_file", "duration_ms": 0.03, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "77540654a587", "timestamp": "2026-06-24T15:27:08.204225", "type": "tool_call", "name": "read_file", "duration_ms": 0.32, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "365798a529cb", "timestamp": "2026-06-24T15:27:08.204225", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "8b51619807d0", "timestamp": "2026-06-24T15:27:08.204225", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "0bcb81ce3512", "timestamp": "2026-06-24T15:27:08.204225", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "ff8985d47f35", "timestamp": "2026-06-24T15:27:08.205729", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "86ff641eefa6", "timestamp": "2026-06-24T15:27:08.205729", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "74ac33b3225c", "timestamp": "2026-06-24T15:27:08.205729", "type": "tool_call", "name": "write_file", "duration_ms": 0.03, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "c1e2c088a2a6", "timestamp": "2026-06-24T15:27:08.207256", "type": "tool_call", "name": "write_file", "duration_ms": 0.29, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "1c2ed8d0e6ab", "timestamp": "2026-06-24T15:27:08.207256", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "0cdb88109ecf", "timestamp": "2026-06-24T15:27:08.207256", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "103e5044b3c2", "timestamp": "2026-06-24T15:27:08.207256", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "831d61295326", "timestamp": "2026-06-24T15:27:08.208260", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "16cddbe2dbee", "timestamp": "2026-06-24T15:27:08.208260", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "854ebbb3859b", "timestamp": "2026-06-24T15:27:08.209547", "type": "tool_call", "name": "write_file", "duration_ms": 0.03, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "2fc22c5e0d79", "timestamp": "2026-06-24T15:27:08.209547", "type": "tool_call", "name": "write_file", "duration_ms": 0.3, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "3ca4e1c6cb09", "timestamp": "2026-06-24T15:27:08.209547", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "e3b79b0399e8", "timestamp": "2026-06-24T15:27:08.209547", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "59f37ff65e1a", "timestamp": "2026-06-24T15:27:08.209547", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "106fbc181fd4", "timestamp": "2026-06-24T15:29:15.807726", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "b9cf3d255eef", "timestamp": "2026-06-24T15:29:15.811913", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "fdf5c9301f6b", "timestamp": "2026-06-24T15:29:15.812911", "type": "tool_call", "name": "read_file", "duration_ms": 0.04, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "1007be4d2c60", "timestamp": "2026-06-24T15:29:15.812911", "type": "tool_call", "name": "read_file", "duration_ms": 0.31, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "1b5d7b31e2f1", "timestamp": "2026-06-24T15:29:15.812911", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "48ce0807799f", "timestamp": "2026-06-24T15:29:15.812911", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "89e3a6f3003e", "timestamp": "2026-06-24T15:29:15.813912", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "5c3b960356e3", "timestamp": "2026-06-24T15:29:15.814913", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "ed986d0d9f0c", "timestamp": "2026-06-24T15:29:15.814913", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "e25e187a8c07", "timestamp": "2026-06-24T15:29:15.815910", "type": "tool_call", "name": "write_file", "duration_ms": 0.02, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "4073fc591043", "timestamp": "2026-06-24T15:29:15.815910", "type": "tool_call", "name": "write_file", "duration_ms": 0.3, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "39fd3242a480", "timestamp": "2026-06-24T15:29:15.815910", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "2a38a9bc500a", "timestamp": "2026-06-24T15:29:15.815910", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "8a96cf46536f", "timestamp": "2026-06-24T15:29:15.817114", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "221a7e5a4be8", "timestamp": "2026-06-24T15:29:15.818119", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "df024117bfee", "timestamp": "2026-06-24T15:29:15.818119", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "6c10803c3092", "timestamp": "2026-06-24T15:29:15.819169", "type": "tool_call", "name": "write_file", "duration_ms": 0.03, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "28ca620f9c70", "timestamp": "2026-06-24T15:29:15.819169", "type": "tool_call", "name": "write_file", "duration_ms": 0.29, "input": "", "output": "OK", "metadata": {"exception": null}}
+{"trace_id": "81af54bf86b2", "timestamp": "2026-06-24T15:29:15.819673", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "f6a31c0be35b", "timestamp": "2026-06-24T15:29:15.819673", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "806c2a7d6f7d", "timestamp": "2026-06-24T15:29:15.819673", "type": "state_transition", "name": "REFLECT->DONE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {}}
+{"trace_id": "c42a3c84af42", "timestamp": "2026-06-24T15:37:14.881348", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "INIT", "to": "THINK"}}
+{"trace_id": "a161464276e8", "timestamp": "2026-06-24T15:37:18.778098", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "THINK", "to": "ACT"}}
+{"trace_id": "1ec9c9349a10", "timestamp": "2026-06-24T15:37:18.779097", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "ACT", "to": "OBSERVE"}}
+{"trace_id": "03f659cbd9fc", "timestamp": "2026-06-24T15:37:18.779097", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "OBSERVE", "to": "REFLECT"}}
+{"trace_id": "6cf2de3c4b8b", "timestamp": "2026-06-24T15:38:19.724318", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "INIT", "to": "THINK"}}
+{"trace_id": "e83e9ad965a5", "timestamp": "2026-06-24T15:38:21.115797", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "THINK", "to": "ACT"}}
+{"trace_id": "d015b2efbafb", "timestamp": "2026-06-24T15:38:21.115797", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "ACT", "to": "OBSERVE"}}
+{"trace_id": "95420f7876c3", "timestamp": "2026-06-24T15:38:21.116803", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "OBSERVE", "to": "REFLECT"}}
+{"trace_id": "0e4021a32db6", "timestamp": "2026-06-24T15:40:13.931030", "type": "state_transition", "name": "INIT->THINK", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "INIT", "to": "THINK"}}
+{"trace_id": "eb159c911730", "timestamp": "2026-06-24T15:40:17.037779", "type": "state_transition", "name": "THINK->ACT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "THINK", "to": "ACT"}}
+{"trace_id": "b5c6180516ce", "timestamp": "2026-06-24T15:40:17.037779", "type": "state_transition", "name": "ACT->OBSERVE", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "ACT", "to": "OBSERVE"}}
+{"trace_id": "b81d07fd9117", "timestamp": "2026-06-24T15:40:17.038782", "type": "state_transition", "name": "OBSERVE->REFLECT", "duration_ms": 0.0, "input": "", "output": "", "metadata": {"from": "OBSERVE", "to": "REFLECT"}}

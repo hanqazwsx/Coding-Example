@@ -1,0 +1,27 @@
+{"timestamp": "2026-06-24T15:22:04.122831", "event_type": "user_input", "actor": "user", "details": {"input_preview": "Review the code in config.py for potential issues.", "safe": true}}
+{"timestamp": "2026-06-24T15:22:04.136332", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:04.428090", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:04.603108", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:04.780593", "event_type": "tool_call", "actor": "agent", "details": {"tool": "read_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:04.780634", "event_type": "tool_call", "actor": "agent", "details": {"tool": "read_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:05.132792", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:05.300349", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:05.468200", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:05.468315", "event_type": "user_input", "actor": "user", "details": {"input_preview": "Create a new Python file called 'hello.py' with a hello world function.", "safe": true}}
+{"timestamp": "2026-06-24T15:22:05.479755", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:05.680634", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:05.842492", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:06.010001", "event_type": "tool_call", "actor": "agent", "details": {"tool": "write_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:06.010051", "event_type": "tool_call", "actor": "agent", "details": {"tool": "write_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:06.348948", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:06.510545", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:06.671241", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:06.671327", "event_type": "user_input", "actor": "user", "details": {"input_preview": "List all Python files in the project and summarize their purposes.", "safe": true}}
+{"timestamp": "2026-06-24T15:22:06.679963", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:06.860884", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:07.034581", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:07.200161", "event_type": "tool_call", "actor": "agent", "details": {"tool": "write_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:07.200208", "event_type": "tool_call", "actor": "agent", "details": {"tool": "write_file", "params": {}, "result_summary": {"success": false, "error": "Parameter validation error: Missing required parameter: 'path'"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:22:07.529947", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:07.696878", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:22:07.860032", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}

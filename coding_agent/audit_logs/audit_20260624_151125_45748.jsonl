@@ -1,0 +1,24 @@
+{"timestamp": "2026-06-24T15:11:22.477027", "event_type": "user_input", "actor": "user", "details": {"input_preview": "Review the code in config.py for potential issues.", "safe": true}}
+{"timestamp": "2026-06-24T15:11:22.489222", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:22.777526", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:22.971005", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:22.971191", "event_type": "tool_call", "actor": "agent", "details": {"tool": "review_code", "params": {}, "result_summary": {"success": false, "error": "Unknown tool: 'review_code'. Available: ['read_file', 'write_file', 'shell_exec']"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:11:23.318042", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:23.480638", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:23.638773", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:23.638905", "event_type": "user_input", "actor": "user", "details": {"input_preview": "Create a new Python file called 'hello.py' with a hello world function.", "safe": true}}
+{"timestamp": "2026-06-24T15:11:23.651903", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:23.836737", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.002974", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.003123", "event_type": "tool_call", "actor": "agent", "details": {"tool": "create_endpoint", "params": {}, "result_summary": {"success": false, "error": "Unknown tool: 'create_endpoint'. Available: ['read_file', 'write_file', 'shell_exec']"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:11:24.330354", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.488989", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.651560", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.651645", "event_type": "user_input", "actor": "user", "details": {"input_preview": "List all Python files in the project and summarize their purposes.", "safe": true}}
+{"timestamp": "2026-06-24T15:11:24.662548", "event_type": "state_transition", "actor": "fsm", "details": {"from": "START", "to": "INIT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:24.867128", "event_type": "state_transition", "actor": "fsm", "details": {"from": "INIT", "to": "THINK", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:25.034134", "event_type": "state_transition", "actor": "fsm", "details": {"from": "THINK", "to": "ACT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:25.034279", "event_type": "tool_call", "actor": "agent", "details": {"tool": "write_dockerfile", "params": {}, "result_summary": {"success": false, "error": "Unknown tool: 'write_dockerfile'. Available: ['read_file', 'write_file', 'shell_exec']"}, "allowed": true}}
+{"timestamp": "2026-06-24T15:11:25.379162", "event_type": "state_transition", "actor": "fsm", "details": {"from": "ACT", "to": "OBSERVE", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:25.542516", "event_type": "state_transition", "actor": "fsm", "details": {"from": "OBSERVE", "to": "REFLECT", "context_summary": ""}}
+{"timestamp": "2026-06-24T15:11:25.705303", "event_type": "state_transition", "actor": "fsm", "details": {"from": "REFLECT", "to": "DONE", "context_summary": ""}}
